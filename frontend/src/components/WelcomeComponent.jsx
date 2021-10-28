@@ -114,7 +114,8 @@ class WelcomeComponent extends Component {
           </button>  */}
         </div>
         <div
-          style={{ height: "300px", width: "300px", marginLeft: "400px" }}
+          style={{ height: "300px", width: "300px"}}
+          className="col-md-8 offset-md-4 offset-md-3"
         >
           <Pie data={data} />
         </div>
